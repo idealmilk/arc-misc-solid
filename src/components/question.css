@@ -1,0 +1,42 @@
+.question-wrap {
+  position: relative;
+  width: 530px;
+  margin: 0 auto;
+}
+
+.question-wrap p {
+  text-align: justify;
+  font-weight: bold;
+  letter-spacing: 1.2px;
+  line-height: 1.4;
+}
+
+.question-wrap .question-text:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.question-wrap span {
+  color: white;
+  padding: 10px 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.question-highlight {
+  background-color: black;
+  padding-top: 8px;
+}
+
+.question {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transform: scale(0.58) translate(150px, 114px);
+  object-fit: contain;
+}
+
+.darkmode {
+  background-color: black;
+}

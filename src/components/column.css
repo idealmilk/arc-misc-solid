@@ -1,0 +1,25 @@
+.row {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+}
+
+.left,
+.right {
+  width: 30%;
+}
+
+.middle {
+  width: 30%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: '';
+  display: table;
+  clear: both;
+}
